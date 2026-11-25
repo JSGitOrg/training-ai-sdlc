@@ -1,0 +1,113 @@
+prompt #1: 
+
+Read /specs/workshop-registration.md.
+
+Do not implement anything yet.
+
+Create an implementation plan that identifies:
+
+1. application components
+2. data model
+3. business rules
+4. API endpoints
+5. UI components
+6. validation rules
+7. tests required to verify each acceptance criterion
+
+Identify any ambiguous requirements before implementation.
+---------------------------------------------------------------------
+prompt #2: 
+
+Using the specification and implementation plan,
+break the implementation into small development tasks.
+
+For each task identify:
+
+- requirement being implemented
+- files likely to change
+- acceptance criteria covered
+- tests required
+
+Do not implement the tasks yet.
+
+------------------------------------------------------------
+prompt #3:
+
+Implement the workshop registration application
+according to the approved specification and plan.
+
+Do not introduce requirements that are not
+present in the specification.
+
+Add automated tests for each acceptance criterion.
+
+Run the tests and address failures before considering
+the implementation complete.
+
+-----------------------------------------------------------------
+
+.github/
+    copilot-instructions.md
+
+# Project Instructions
+
+This repository follows specification-driven development.
+
+Before implementing a feature:
+
+1. Read the relevant file under /specs.
+2. Identify the applicable requirements.
+3. Do not invent requirements.
+4. Implement the smallest change satisfying the specification.
+5. Add tests covering acceptance criteria.
+6. Run existing tests.
+7. Report which requirements were implemented.
+
+Code should remain simple enough for instructional use.
+
+--------------------------------------------------------------
+
+New requirement:
+Participants can only register if they use an institutional .edu email address.
+
+>> add it in the specification file
+
+FR-07
+Registration requires an institutional
+.edu email address.
+
+>> Add acceptance criteria:
+
+Given:
+a user enters john@gmail.com
+
+When:
+registration is submitted
+
+Then:
+registration must be rejected.
+
+-----------------------------------------------
+
+prompt #4
+
+The specification has changed.
+
+Review the latest specification.
+
+Identify:
+- affected requirements
+- affected components
+- tests that must be added or changed
+
+Do not modify the implementation yet.
+--------------------------------------------
+
+prompt #5
+
+Implement the approved specification change
+and run the relevant tests.
+
+prompt # 6
+
+add few additional workshops in the data

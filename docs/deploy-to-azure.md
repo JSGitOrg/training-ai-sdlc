@@ -1,6 +1,6 @@
 # Deploy with GitHub Actions to Azure App Service
 
-The workflow in `.github/workflows/deploy-azure.yml` runs tests, provisions an Azure App Service with Bicep, and deploys the application whenever code is pushed to `main`. It uses GitHub OpenID Connect (OIDC), so no Azure client secret is stored in GitHub.
+The workflow in `.github/workflows/deploy-azure.yml` runs tests, provisions an Azure App Service with Bicep and Azure Verified Modules, and deploys the application whenever code is pushed to `main`. It uses GitHub OpenID Connect (OIDC), so no Azure client secret is stored in GitHub.
 
 The template creates a Linux App Service Plan (Basic B1) and a Node.js 24 LTS web app. B1 incurs Azure charges while the resource exists. The app keeps registration data in `/home/data/workshops.json`; the deployment archive contains only an empty-registration seed. App Service storage must remain enabled, and this file-based app should run with one instance.
 
