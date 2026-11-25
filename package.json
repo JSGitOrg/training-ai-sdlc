@@ -1,0 +1,13 @@
+{
+  "name": "workshop-registration",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Faculty workshop registration application",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  }
+}

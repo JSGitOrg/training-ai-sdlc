@@ -1,0 +1,34 @@
+[
+  {
+    "id": "inclusive-teaching",
+    "title": "Inclusive Teaching Strategies",
+    "date": "2027-03-15",
+    "instructor": "Dr. Taylor Morgan",
+    "capacity": 20,
+    "registrations": []
+  },
+  {
+    "id": "active-learning",
+    "title": "Designing Active Learning Experiences",
+    "date": "2027-04-12",
+    "instructor": "Dr. Morgan Lee",
+    "capacity": 24,
+    "registrations": []
+  },
+  {
+    "id": "assessment-feedback",
+    "title": "Assessment and Effective Feedback",
+    "date": "2027-05-10",
+    "instructor": "Dr. Casey Rivera",
+    "capacity": 18,
+    "registrations": []
+  },
+  {
+    "id": "digital-accessibility",
+    "title": "Digital Accessibility for Educators",
+    "date": "2027-06-07",
+    "instructor": "Dr. Jordan Ellis",
+    "capacity": 20,
+    "registrations": []
+  }
+]
